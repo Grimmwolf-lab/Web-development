@@ -1,0 +1,18 @@
+body {
+	background-blend-mode: lighten;
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrH8dPVbIEX3DcktPcYnSK44a8h9rjhU9T7w&usqp=CAU");
+	background-image: 2000px;
+}
+h1 {
+	color: #ff4646;
+	font-size: 150px;
+}
+p {
+	color: #ff8585;
+	font-size: 30px;
+	border-width: 5px;
+	border-width: 1.2rem;
+	width: fit-content;
+}
+img {
+}
