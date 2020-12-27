@@ -1,6 +1,7 @@
+/*******************Tag Selectors*********************/
 body {
 	background-blend-mode: lighten;
-	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrH8dPVbIEX3DcktPcYnSK44a8h9rjhU9T7w&usqp=CAU");
+	/*background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrH8dPVbIEX3DcktPcYnSK44a8h9rjhU9T7w&usqp=CAU");*/
 	background-image: 2000px;
 }
 h1 {
@@ -14,5 +15,16 @@ p {
 	border-width: 1.2rem;
 	width: fit-content;
 }
-img {
+/*******************Class Selector******************/
+.bacon {
+	border-radius: 100%;
+	background-color: darkseagreen;
 }
+
+/*******************Id Selectors********************/
+#heading {
+	color: chocolate;
+}
+/*
+only use class selectors if possible 
+*/
