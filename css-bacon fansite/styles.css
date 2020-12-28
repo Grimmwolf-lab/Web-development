@@ -4,9 +4,8 @@ body {
 	/*background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrH8dPVbIEX3DcktPcYnSK44a8h9rjhU9T7w&usqp=CAU");*/
 	background-image: 2000px;
 }
-h1 {
-	color: #ff4646;
-	font-size: 150px;
+h1:hover {
+	color: chocolate;
 }
 p {
 	color: #ff8585;
@@ -15,6 +14,11 @@ p {
 	border-width: 1.2rem;
 	width: fit-content;
 }
+/*sudo classes*/
+img:hover {
+	background-color: aqua;
+}
+
 /*******************Class Selector******************/
 .bacon {
 	border-radius: 100%;
@@ -23,7 +27,8 @@ p {
 
 /*******************Id Selectors********************/
 #heading {
-	color: chocolate;
+	font-size: 150px;
+	color: aqua;
 }
 /*
 only use class selectors if possible 
